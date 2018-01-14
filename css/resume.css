@@ -1,0 +1,87 @@
+/*
+OWNER : SHIVESH;
+*/
+body.resume {
+    padding: 5%;
+}
+/*About and Skills section*/
+.about-and-skills {
+    text-align: right;
+}
+.about-and-skills h1 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding:20px 0;
+}
+/*Contact Information*/
+.contact-information ul li a {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.8;
+}
+/*Skills*/
+.skills span {
+    font-size: 25px;
+    padding: 14px 0 6PX;
+    display: block;
+    border-bottom: 1px solid #e1e1e1;
+}
+.skill-set p{
+	font-size: 14px;
+    color: #828282;
+    padding: 15px 0px 0px;
+    display: block;
+}
+.skill-set ul li {
+    font-size: 16px;
+    line-height: 1.8;
+}
+/*About Section Ends*/
+
+/*Experience and Education Section*/
+.experience-and-education span {
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+    padding: 14px 0 6PX;
+    border-bottom: 1px solid #e1e1e1;
+}
+.work-experience{
+	margin: 2em 0 0;
+}
+.work-experience h4 {
+    margin: 10px 0 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.work-experience span {
+    font-size: 14px;
+    padding: 0;
+    color: #828282;
+    border:none;
+}
+.work-experience p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px 0;
+}
+/*Media Query For Mobile*/
+@media only screen and (max-width: 768px) {
+    .about-and-skills {
+	    text-align: left;
+	}
+	.about-and-skills h1 {
+	    font-weight: bold;
+	}
+	.skills span {
+	    font-size: 22px;
+	}
+	.experience-and-education span {
+	    font-size: 20px;
+	}	
+	.work-experience span {
+	    font-size: 14px;
+	}
+}

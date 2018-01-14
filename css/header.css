@@ -1,0 +1,89 @@
+/*
+
+Header css
+
+Owner : Shivesh
+
+*/
+body{
+	padding-top: 65px;
+}
+.navigation-bar .navbar-default {
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+}
+.navigation-bar .navbar-brand {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navigation-bar .navbar-brand:hover {
+    color: #000;
+}
+.navigation-bar .navbar-brand .highlight {
+	color:red;
+}
+.navigation-bar .navbar-default .navbar-nav a {
+    color: #757575;
+    font-size: 16px;
+}
+.navigation-bar .navbar-default .navbar-nav a:hover {
+    color: #000000;
+}
+.navigation-bar .navbar-default .navbar-nav li {
+    margin: 0 12px;
+}
+blockquote{
+    border-left: 5px solid #7ed320;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 2em 0;
+}
+.ma-2em{
+  margin: 2em 0;
+}
+/*Mobile Toggle*/
+
+.navigation-bar .navbar-default .navbar-toggle {
+    border-color: transparent;
+    background-color: transparent;
+}
+.navigation-bar .navbar-default .navbar-toggle:hover {
+    background: transparent !important;
+}
+.navigation-bar .navbar-default .navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+    background-color: #000;
+  }
+  .navigation-bar .navbar-default .navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+.navigation-bar .navbar-default .navbar-toggle .middle-bar {
+    opacity: 0;
+  }
+.navigation-bar .navbar-default .navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .navigation-bar .navbar-default .navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .navigation-bar .navbar-default .navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+  }
+  .navigation-bar .navbar-default .navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+/*Media Query For Mobile*/
+@media only screen and (max-width: 768px) {
+	.navigation-bar .navbar-brand {
+	    font-size: 21px;
+	}
+	.navigation-bar .navbar-default .navbar-nav a {
+	    text-align: center;
+	}
+}

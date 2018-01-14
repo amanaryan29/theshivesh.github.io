@@ -1,0 +1,110 @@
+/*
+
+Homepage CSS
+
+Owner : Shivesh;
+
+*/
+.main-container{
+	background-color: #FFFFFF;
+}
+.active{
+    color:#000000;
+}
+.intro {
+    padding: 7em 0 7em;
+}
+.intro h1 {
+    font-size: 58px;
+    font-weight: 600;
+    color: #000000;
+}
+.intro h1 a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/*Works*/
+.works h1 {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    padding: 1em 0;
+}
+.highlight{
+	color: red;
+	font-weight: 500;
+}
+.works .card {
+    background-color: white;
+    vertical-align: top;
+    text-align: left;
+    height: 502px;
+    margin-bottom: 4em;
+    opacity: 0.9;
+    box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    -moz-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    color: #4B4F56;
+}
+.works .card:hover{
+	box-shadow: 0 40px 40px rgba(0,0,0,.16);
+    transform: translate(0,-20px);
+    transition-delay: 0s !important;
+    opacity: 1;
+}
+.works .card a{
+	text-decoration: none;
+	color:#3c3c3c;
+}
+.works .card a:hover{
+	color:#000000;
+}
+.card .card-img-top {
+    height: 280px;
+    overflow: auto;
+    width: 100%;
+}
+.works .card .card-body {
+    width: 100%;
+    overflow: visible;
+    padding: 20px;
+    min-height: 165px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.works .card .card-body .card-title{
+	font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+.works .card .card-body .card-text{
+    display: -webkit-box;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 20px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.works .card .card-footer {
+    font-size: 11px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px;
+}
+/*.works .card .card-footer span{
+	position: absolute;
+	top:50%;
+}*/
+/*Media Query for Mobile phones*/
+@media only screen and (max-width: 768px) {
+	.intro {
+ 	    padding: 2em;
+	}
+	.intro h1 {
+	    font-size: 40px;
+	}
+}

@@ -1,0 +1,62 @@
+/*Main Footer Styling*/
+
+.main-footer{
+	min-height: 50px;
+    position: relative;
+    padding: 2em 2em;
+    border-top: 1px solid #e1e1e1;
+}
+.footer-links{
+	margin: 0 auto;
+	display: table;
+}
+.footer-links ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links ul li{
+	display: inline-block;
+}
+.footer-links ul li a i {
+    color: #afafaf;
+    font-size: 18px;
+    padding: 17px 30px;
+}
+.footer-links ul li a i.fa-facebook:hover{
+	color: blue;
+}
+.footer-links ul li a i.fa-dribbble:hover{
+	color: #ea4c89;
+}
+.footer-links ul li a i.fa-behance:hover{
+	color: #053eff;
+}
+.footer-links ul li a i.fa-globe:hover{
+	color: #000000;
+}
+.footer-links ul li a i.fa-linkedin:hover{
+	color: #0077B5;
+}
+.footer-links ul li a i.fa-instagram:hover{
+	color: #fb3958;
+}
+.footer-links ul li a i.fa-envelope:hover{
+	color: #ffc838;
+}
+.footer-links ul li a:hover, .footer-links ul li a:active, .footer-links ul li a:focus {
+  	outline: 0;
+  	text-decoration: none;
+}
+.footer-credits p{
+	letter-spacing: 1px;
+}
+.footer-credits i{
+	color: #fb3958;
+}
+/*Media Query For Mobile*/
+@media only screen and (max-width: 768px) {
+	.footer-links ul li a i {
+		padding: 11px;
+	}
+}
