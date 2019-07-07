@@ -970,6 +970,9 @@ a {
   color: #000;
   font-weight: 800; }
 
+.mauto {
+  margin: 0 auto; }
+
 .project-header {
   border-top: 1px solid #fcfcfc;
   min-height: 40vh;
